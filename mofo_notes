@@ -1,0 +1,14 @@
+About autonomous systems - https://en.wikipedia.org/wiki/Autonomous_system_(Internet)
+AS:
+    - range of IP nets are typically related to the network of a specific organization (like Google, Facebook, etc.).
+    - has a unique number which clearly identifies each AS. 
+    - can use the ASN to fetch all registered IP addresses allocated to an organization to block specific companies at once. 
+    - a company can have multiple ASNs
+    - AS blocking CAN protect against tracking and MAY lead to a lot of websites not working anymore. (GOOD cus these orgs worse than all the crazy ass dudes that keep cybertalking me. B/M'ILLIONAIRES included!)
+
+NOTE!!!! Blocking IP addresses in the host file DOES NOT WORK. Why? Because the hostfile is only there for associating IP addresses to hostnames. That said,  one must add the IP addresses directly in your firewall.
+INCOMING and OUTGOING in my case since these hackers are really just high key stalkers aka groupies aka biggest fans.
+
+Mac/Linux, IPs can be blocked by adding specific iptables rules:
+iptables -A INPUT -s XX.XX.XX.XX/XX -j DROP
+*** Don't forget to look into ipset when you are blocking large amounts of IPs to prevent performance issues.
